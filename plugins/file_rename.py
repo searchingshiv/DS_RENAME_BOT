@@ -13,7 +13,7 @@ from asyncio import sleep
 from PIL import Image
 import os, time
 
-if pyrogram.enums.Chat.id = -775980233:
+if pyrogram.enums.Chat.id == -775980233:
 	@Client.on_message(filters.private & (filters.document | filters.audio | filters.video))
 	async def rename_start(client, message):
 	    file = getattr(message, message.media.value)
