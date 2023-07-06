@@ -154,7 +154,8 @@ if pyrogram.enums.Chat.id = -775980233:
 	    os.remove(file_path) 
 	    if ph_path: os.remove(ph_path) 
 	
-	
+else:
+	pass
 	
 	
 	
